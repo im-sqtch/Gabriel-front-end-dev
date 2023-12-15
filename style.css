@@ -6,7 +6,7 @@
 }
 
 body {
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
     background-color: #02202c;
     color: #DAFFFB;
@@ -20,8 +20,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10%;
-    
+    padding: 10%;
 }
 
 .apresentacao_conteudo {
@@ -81,4 +80,31 @@ body {
     max-height: 500px;
     width: auto;
     height: auto;
+}
+
+.rodape {
+    color: #000000;
+    background-color: rgb(44, 235, 216);
+    padding: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.cabecalho {
+    padding: 2% 0 0 10%;
+}
+
+.cabecalho_menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho_menu_link {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(44, 235, 216);
 }
