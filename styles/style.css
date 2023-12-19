@@ -125,8 +125,7 @@ body {
     }
 
     .cabecalho_menu {
-        justify-content: center;
-        padding: 5%, 20%;
+        justify-content: space-evenly;
     }
     
     .apresentacao {
