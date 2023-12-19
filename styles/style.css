@@ -126,6 +126,7 @@ body {
 
     .cabecalho_menu {
         justify-content: center;
+        gap: 40px;
     }
     
     .apresentacao {
